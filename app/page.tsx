@@ -29,9 +29,9 @@ export default function Home() {
 
       {/* Cards row 1*/}
       <div className="pb-6 flex gap-6 w-[1200px] h-[384px]">
-        <div className="bg-[#130060] border-4 border-[#2A07B4] rounded-lg w-1/3 overflow-hidden">
+        <div className="bg-[#140161] border-4 border-[#2A07B4] rounded-lg w-1/3 overflow-hidden">
           <div className="h-full flex">
-            <div className="relative bg-[#140161] w-full translate-x-1/4">
+            <div className="relative bg-[#130060] w-full translate-x-1/4">
               <Image
                 src="/LandingPage/builder.png"
                 alt="guy holding sword"
@@ -51,6 +51,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="bg-[#6250AF] border-4 border-[#9077FC] rounded-lg relative w-2/3 overflow-hidden">
           <div className="h-full flex">
             <div className="relative bg-[#6250AF] w-full translate-x-10">
@@ -79,7 +80,7 @@ export default function Home() {
       <div className="pb-6 flex gap-6 w-[1200px] h-[384px]">
         <div className="bg-[#14016180] border-4 border-[#2A07B480] rounded-lg relative w-2/3 overflow-hidden">
           <div className="h-full flex">
-            <div className="relative w-full bg-[#14016180] translate-x-1/3">
+            <div className="relative w-full bg-[#0A0030] translate-x-1/3">
               <Image
                 src="/LandingPage/chat-bot.png"
                 alt="sorcerer casting spell"
@@ -90,10 +91,10 @@ export default function Home() {
             <div className="absolute inset-0 bg-mystical-chatbot" />
             </div>
             <div className="absolute w-full p-5">
-              <p className=" flex justify-center p-1 bg-[#FFFFFF26] rounded-[8px] w-[135px]">
+              <p className=" flex justify-center p-1 bg-[#FFFFFF26] rounded-[8px] w-[135px] border-2 border-[#FFFFFF26]">
                 <span>Coming soon</span>
               </p>
-              <h1 className="text-[36px] font-thin mt-6">Character Sheet</h1>
+              <h1 className="text-[36px] font-thin mt-6">Mystical Chatbot</h1>
               <p className="max-w-[238px] font-light leading-6 mt-6 text-[18px]">
                 <span>
                 Unleash your creativity and conjure character concepts as magical as Merlin's incantations.
@@ -102,7 +103,36 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="bg-[#6250AF80] border-4 border-[#9077FC80] rounded-lg w-1/3 overflow-hidden">
+          <div className="h-full flex">
+            <div className="relative bg-[#312857] w-full translate-x-12">
+              <Image
+                src="/LandingPage/party-finder.png"
+                alt="guy holding sword"
+                className="mix-blend-luminosity"
+                fill
+                objectFit="cover"
+              />
+              <div className="absolute inset-0 bg-party-finder" />
+            </div>
+            <div className="absolute w-full p-5">
+              <p className=" flex justify-center p-1 bg-[#FFFFFF26] rounded-[8px] w-[135px] border-2 border-[#FFFFFF26]">
+                <span>Coming soon</span>
+              </p>
+              <h1 className="text-[36px] font-thin mt-6">Party Finder</h1>
+              <p className="max-w-[238px] font-light leading-6 mt-6 text-[18px]">
+                <span>
+                Connect with fellow adventurers,
+                whether they dwell in distant lands or nearby taverns,
+                and embark on legendary quests together.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
 
       {/* Cards row 3 */}
       <div className="pb-6 flex gap-6 w-[1200px] h-[384px]">

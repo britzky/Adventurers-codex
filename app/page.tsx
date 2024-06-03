@@ -64,7 +64,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-character-sheet" />
             </div>
-            <div className="absolute w-full p-5">
+            <div className="absolute p-5">
               <h1 className="text-[36px] font-thin">Character Sheet</h1>
               <p className="max-w-[300px] font-light leading-6 mt-6 text-[18px]">
                 <span>
@@ -90,7 +90,7 @@ export default function Home() {
               />
             <div className="absolute inset-0 bg-mystical-chatbot" />
             </div>
-            <div className="absolute w-full p-5">
+            <div className="absolute p-5">
               <p className=" flex justify-center p-1 bg-[#FFFFFF26] rounded-[8px] w-[135px] border-2 border-[#FFFFFF26]">
                 <span>Coming soon</span>
               </p>
@@ -116,7 +116,7 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-party-finder" />
             </div>
-            <div className="absolute w-full p-5">
+            <div className="absolute p-5">
               <p className=" flex justify-center p-1 bg-[#FFFFFF26] rounded-[8px] w-[135px] border-2 border-[#FFFFFF26]">
                 <span>Coming soon</span>
               </p>
